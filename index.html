@@ -4,16 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=lunch_dining" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/header.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="styles/home.css">
+
     <link rel="shortcut icon" href="styles/imagens/logo-principal.png" type="image/x-icon">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
     <title>Landing page(teste)</title>
 </head>
 <body>
     <header>
         <nav id="navbar">
-            <i class="material-symbols-outlined">menu</i>
+            <i class="material-symbols-outlined">lunch_dining</i>
+            
 
             <ul id="nav_list">
                 <li class="nav-item active">
@@ -26,7 +35,7 @@
                     <a href="#testimonials">INÍCIO</a>
                 </li>
             </ul>
-            <button class="btn-defalt">
+            <button class="btn-default">
                 Peça Aqui
             </button>
 
@@ -46,11 +55,53 @@
                     <a href="#testimonials">INÍCIO</a>
                 </li>
             </ul>
-            <button class="btn-defalt">
+            <button class="btn-default">
                 Peça Aqui
             </button>
         </div>
     </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">O Sabor
+                    <span>Acreano</span>
+                </h1>
+                <p class="description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis eveniet odit consequuntur eius sint recusandae ipsam necessitatibus, porro praesentium eum non maiores cum, reiciendis reprehenderit, voluptates in. Praesentium, repudiandae soluta?
+                </p>
+
+                <div id="cta-buttons">
+                    <a href="#" class="btn-default">
+                        Ver cardápio
+                    </a>
+
+                    <a href="tel:+5555555555" id="phone-button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (68) 4002-8933
+                    </a>
+                </div>
+                <div class="social-media-button">
+                    <a href="#">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="styles/imagens/imagen-001.jpg" alt="">
+            </div>
+        </section>
+    </main>
     <script src="javascript/script.js"></script>
 </body>
 </html>

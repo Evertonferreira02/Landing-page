@@ -40,7 +40,7 @@ header{
     display: none;
 }
 
-@media screen and (max-width: 1170px ) {
+@media screen and (max-width: 1170px) {
             #nav_list, 
             #navbar .btn-defalt{
             display: none;
@@ -64,5 +64,9 @@ header{
         flex-direction: column;
         gap: 12px;
         margin: 12px 0px;
+    }
+    #mobile_nav_list{
+        list-style: none;
+        text-align: none;
     }
 }
